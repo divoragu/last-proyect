@@ -11,3 +11,15 @@ $font-25: 25px;
 $spacio-5: 5px;
 $spacio-10: 10px;
 $spacio-25: 25px;
+
+//bucles
+@for $it from 1 to 10{
+    
+    .item#{$it}{
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -63,12 +63,10 @@ footer{
     background-color: $color-back;
     div{
         display: flex;
-        float:right;
-    }
+        padding: $spacio-5;
     ul{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+        padding: $spacio-5;
+        margin: 0;
         li{
             list-style: none;
             font-size: $font-10+2;
@@ -77,14 +75,22 @@ footer{
             text-decoration: none;
             color: $color-text;
             font-weight: 600;
+            margin: $spacio-5;
             &:hover{
                 background-color: $color-text;
-                border-radius: 5px;
+                border-radius: $spacio-5;
                 text-decoration: none;
                 color: $color-back;
                 transition-duration: 2s;
                 font-weight: 600;
             }
         }
+    }
+    }
+    p{
+        color: $color-text;
+        text-align: end;
+        font-size: $font-10;
+        margin: $spacio-5;
     }
 }
