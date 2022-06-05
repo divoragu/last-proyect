@@ -1,0 +1,90 @@
+header{
+    background-color: $color-back;
+    color: $color-text;
+    div{
+        display: flex;
+        justify-content: space-around;
+        padding: $spacio-10;
+        box-sizing: border-box;
+    img{
+        border-radius: $spacio-10+5;
+        animation: move-img;
+        animation-timing-function: ease;
+        animation-duration: 6s;
+        animation-iteration-count: 1;
+    }
+    h1{
+        animation: move-title;
+        animation-timing-function: ease;
+        animation-duration: 6s;
+        animation-iteration-count: 1;
+    }
+    }
+    .nav-head{
+        ul{
+            display: flex;
+            align-content: flex-end;
+            justify-content: space-around;
+            padding: $spacio-5 - 2;
+        }
+        li{
+            list-style: none;
+            font-weight: 700;
+            &:hover{
+                background-color: $color-text;
+                border-radius: $spacio-10;
+                transition-duration: 1.2s;
+            }
+        }
+        a{
+            text-decoration: none;
+            color: $color-text;
+            &:hover{
+                color: $color-back;
+                transition-duration: 1.2s;
+                font-weight: 700;
+            }
+    }
+    }
+}
+@keyframes move-title  {
+    0%{transform: translateX(700px);}
+    50%{transform: skew(-10deg);}
+    51%{transform: skew(0deg);}
+}
+
+@keyframes move-img  {
+    0%{transform: translateX(-500px);}
+    50%{transform: skew(10deg);}
+    53%{transform: skew(0deg);}
+}
+
+footer{
+    background-color: $color-back;
+    div{
+        display: flex;
+        float:right;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        li{
+            list-style: none;
+            font-size: $font-10+2;
+        }
+        a{
+            text-decoration: none;
+            color: $color-text;
+            font-weight: 600;
+            &:hover{
+                background-color: $color-text;
+                border-radius: 5px;
+                text-decoration: none;
+                color: $color-back;
+                transition-duration: 2s;
+                font-weight: 600;
+            }
+        }
+    }
+}
