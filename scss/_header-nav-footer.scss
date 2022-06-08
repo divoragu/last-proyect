@@ -91,6 +91,6 @@ footer{
         color: $color-text;
         text-align: end;
         font-size: $font-10;
-        margin: $spacio-5;
+        padding-right: $spacio-5 - 2;
     }
 }
