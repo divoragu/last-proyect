@@ -1,0 +1,23 @@
+
+@media screen and (max-width:768px) {
+    header{
+        div{
+            img{
+                animation: none;
+            }
+            h1{
+                animation: none;
+            }
+        }
+    }
+    .nav-head{
+        a{
+            font-size: $font-10+2;
+        }
+    }
+    main{
+        img{
+            display: none;
+        }
+    }
+}
