@@ -282,13 +282,17 @@ footer {
   margin: 25px; }
 
 .tabla {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 20px;
   padding: 10px;
-  margin-left: 200px; }
+  scroll-margin-left: 200px;
+  text-align: center; }
   .tabla table {
     font-size: 20px;
-    border: 2px solid black;
-    width: 500px; }
+    border: 2px solid black; }
 
 @media screen and (max-width: 768px) {
   header div img {
