@@ -281,6 +281,15 @@ footer {
   grid-gap: 10px;
   margin: 25px; }
 
+.tabla {
+  margin-bottom: 20px;
+  padding: 10px;
+  margin-left: 200px; }
+  .tabla table {
+    font-size: 20px;
+    border: 2px solid black;
+    width: 500px; }
+
 @media screen and (max-width: 768px) {
   header div img {
     animation: none; }

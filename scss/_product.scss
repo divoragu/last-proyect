@@ -12,3 +12,13 @@
     grid-gap: $spacio-10;
     margin: $spacio-25;
 }
+.tabla{
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-left: 200px ;
+    table{
+        font-size: 20px;
+        border: 2px solid black;
+        width: 500px;
+    }
+}
