@@ -1,0 +1,14 @@
+
+.main-content{
+    padding: $spacio-5*2;
+    display: grid;
+    grid-template-columns: repeat(auto);
+    grid-template-rows: repeat(auto);
+    grid-template-areas: 
+    "item-1 item-2 item-3"
+    "item-4 item-5 item-6"
+    "item-7 item-8 item-9"
+    ;
+    grid-gap: $spacio-10;
+    margin: $spacio-25;
+}

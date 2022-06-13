@@ -1,7 +1,8 @@
 //color
 $color-back: rgb(0, 0, 0);
 $color-text: rgb(255, 255, 255);
-
+$back-color1:rgb(195, 246, 250);
+$bor-rad-1: 10px solid rgb(255, 0, 0);
 //font
 $font-5: 5px;
 $font-10: 10px;
@@ -16,10 +17,27 @@ $spacio-25: 25px;
 @for $it from 1 to 10{
     
     .item#{$it}{
-
         display: flex;
-        justify-content: center;
-        flex-direction: column;
+        justify-content: space-between;
         align-items: center;
+        flex-direction: row;
+        max-height: 100px;
+        border-left: $spacio-5 - 3;
+        border-radius: $spacio-5*2;
+        border: 2px solid rgb(0, 0, 0);
+        p{
+            font-size: $font-25 - 5;
+        }
+        &:hover{
+            transform:rotateX(2deg) ;
+            background-color: $back-color1;
+            border-left: $bor-rad-1;
+            transition-duration: 1.5s;
+            border-radius: $spacio-25;
+            box-shadow: $spacio-5 $spacio-5;
+        }
+        img{
+            border-radius: $spacio-25*2 $spacio-25;
+        }
     }
 }

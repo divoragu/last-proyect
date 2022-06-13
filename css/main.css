@@ -1,56 +1,191 @@
 .item1 {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center; }
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  max-height: 100px;
+  border-left: 2px;
+  border-radius: 10px;
+  border: 2px solid black; }
+  .item1 p {
+    font-size: 20px; }
+  .item1:hover {
+    transform: rotateX(2deg);
+    background-color: #c3f6fa;
+    border-left: 10px solid red;
+    transition-duration: 1.5s;
+    border-radius: 25px;
+    box-shadow: 5px 5px; }
+  .item1 img {
+    border-radius: 50px 25px; }
 
 .item2 {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center; }
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  max-height: 100px;
+  border-left: 2px;
+  border-radius: 10px;
+  border: 2px solid black; }
+  .item2 p {
+    font-size: 20px; }
+  .item2:hover {
+    transform: rotateX(2deg);
+    background-color: #c3f6fa;
+    border-left: 10px solid red;
+    transition-duration: 1.5s;
+    border-radius: 25px;
+    box-shadow: 5px 5px; }
+  .item2 img {
+    border-radius: 50px 25px; }
 
 .item3 {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center; }
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  max-height: 100px;
+  border-left: 2px;
+  border-radius: 10px;
+  border: 2px solid black; }
+  .item3 p {
+    font-size: 20px; }
+  .item3:hover {
+    transform: rotateX(2deg);
+    background-color: #c3f6fa;
+    border-left: 10px solid red;
+    transition-duration: 1.5s;
+    border-radius: 25px;
+    box-shadow: 5px 5px; }
+  .item3 img {
+    border-radius: 50px 25px; }
 
 .item4 {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center; }
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  max-height: 100px;
+  border-left: 2px;
+  border-radius: 10px;
+  border: 2px solid black; }
+  .item4 p {
+    font-size: 20px; }
+  .item4:hover {
+    transform: rotateX(2deg);
+    background-color: #c3f6fa;
+    border-left: 10px solid red;
+    transition-duration: 1.5s;
+    border-radius: 25px;
+    box-shadow: 5px 5px; }
+  .item4 img {
+    border-radius: 50px 25px; }
 
 .item5 {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center; }
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  max-height: 100px;
+  border-left: 2px;
+  border-radius: 10px;
+  border: 2px solid black; }
+  .item5 p {
+    font-size: 20px; }
+  .item5:hover {
+    transform: rotateX(2deg);
+    background-color: #c3f6fa;
+    border-left: 10px solid red;
+    transition-duration: 1.5s;
+    border-radius: 25px;
+    box-shadow: 5px 5px; }
+  .item5 img {
+    border-radius: 50px 25px; }
 
 .item6 {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center; }
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  max-height: 100px;
+  border-left: 2px;
+  border-radius: 10px;
+  border: 2px solid black; }
+  .item6 p {
+    font-size: 20px; }
+  .item6:hover {
+    transform: rotateX(2deg);
+    background-color: #c3f6fa;
+    border-left: 10px solid red;
+    transition-duration: 1.5s;
+    border-radius: 25px;
+    box-shadow: 5px 5px; }
+  .item6 img {
+    border-radius: 50px 25px; }
 
 .item7 {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center; }
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  max-height: 100px;
+  border-left: 2px;
+  border-radius: 10px;
+  border: 2px solid black; }
+  .item7 p {
+    font-size: 20px; }
+  .item7:hover {
+    transform: rotateX(2deg);
+    background-color: #c3f6fa;
+    border-left: 10px solid red;
+    transition-duration: 1.5s;
+    border-radius: 25px;
+    box-shadow: 5px 5px; }
+  .item7 img {
+    border-radius: 50px 25px; }
 
 .item8 {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center; }
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  max-height: 100px;
+  border-left: 2px;
+  border-radius: 10px;
+  border: 2px solid black; }
+  .item8 p {
+    font-size: 20px; }
+  .item8:hover {
+    transform: rotateX(2deg);
+    background-color: #c3f6fa;
+    border-left: 10px solid red;
+    transition-duration: 1.5s;
+    border-radius: 25px;
+    box-shadow: 5px 5px; }
+  .item8 img {
+    border-radius: 50px 25px; }
 
 .item9 {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center; }
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  max-height: 100px;
+  border-left: 2px;
+  border-radius: 10px;
+  border: 2px solid black; }
+  .item9 p {
+    font-size: 20px; }
+  .item9:hover {
+    transform: rotateX(2deg);
+    background-color: #c3f6fa;
+    border-left: 10px solid red;
+    transition-duration: 1.5s;
+    border-radius: 25px;
+    box-shadow: 5px 5px; }
+  .item9 img {
+    border-radius: 50px 25px; }
 
 header {
   background-color: black;
@@ -64,12 +199,12 @@ header {
       border-radius: 15px;
       animation: move-img;
       animation-timing-function: ease;
-      animation-duration: 6s;
+      animation-duration: 3s;
       animation-iteration-count: 1; }
     header div h1 {
       animation: move-title;
       animation-timing-function: ease;
-      animation-duration: 6s;
+      animation-duration: 3s;
       animation-iteration-count: 1; }
   header .nav-head ul {
     display: flex;
@@ -137,6 +272,15 @@ footer {
     padding-right: 3px;
     margin: 0; }
 
+.main-content {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto);
+  grid-template-rows: repeat(auto);
+  grid-template-areas: "item-1 item-2 item-3" "item-4 item-5 item-6" "item-7 item-8 item-9";
+  grid-gap: 10px;
+  margin: 25px; }
+
 @media screen and (max-width: 768px) {
   header div img {
     animation: none; }
@@ -144,8 +288,16 @@ footer {
     animation: none; }
   .nav-head a {
     font-size: 12px; }
-  main img {
-    display: none; } }
+  main {
+    display: grid; }
+    main img {
+      display: none; } }
+
+@media screen and (max-width: 1024px) {
+  header div img {
+    animation: none; }
+  header div h1 {
+    animation: none; } }
 
 body {
   padding: 0;

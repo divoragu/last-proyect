@@ -16,8 +16,24 @@
         }
     }
     main{
+        display: grid;
+        
         img{
             display: none;
         }
     }
 }
+
+
+@media screen and (max-width:1024px) {
+    header{
+        div{
+            img{
+                animation: none;
+            }
+            h1{
+                animation: none;
+            }
+        }
+    }
+}    
