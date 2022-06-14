@@ -326,13 +326,50 @@ footer {
   align-items: center;
   padding: 10px; }
 
+.main-help {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .main-help section h2 {
+    text-align: center;
+    font-size: 50px; }
+  .main-help section p {
+    text-align: center;
+    font-size: 25px; }
+
+.sector-help {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px; }
+  .sector-help h3 {
+    padding: 25px;
+    font-size: 40px;
+    animation: wobble;
+    animation-timing-function: ease;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; }
+  .sector-help p {
+    padding: 50px;
+    font-size: 25px; }
+    .sector-help p a {
+      text-decoration: none;
+      color: black;
+      border: 1px dashed red; }
+      .sector-help p a:hover {
+        background-color: #c3c3e6; }
+
 @media screen and (max-width: 768px) {
   header div img {
     animation: none; }
   header div h1 {
     animation: none; }
   .nav-head a {
-    font-size: 12px; } }
+    font-size: 12px; }
+  img {
+    display: none; } }
 
 @media screen and (max-width: 1024px) {
   header div img {

@@ -1,4 +1,4 @@
-
+//products
 .main-content{
     padding: $spacio-5*2;
     display: grid;
@@ -26,10 +26,55 @@
         border: 2px solid black;
     }
 }
+//contact
 .main-contact{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: $spacio-10;
+}
+//helpme
+.main-help {
+	margin: $spacio-25*2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	section {
+		h2 {
+			text-align: center;
+			font-size: $font-25+25;
+		}
+		p {
+			text-align: center;
+			font-size: $font-25;
+		}
+	}
+}
+.sector-help {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding: $spacio-25+5;
+	h3 {
+		padding: $spacio-25;
+		font-size: $font-25+15;
+		animation: wobble;
+		animation-timing-function: ease;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+	p {
+		padding: $spacio-25*2;
+		font-size: $font-25;
+		a {
+			text-decoration: none;
+			color: black;
+			border: 1px dashed red;
+			&:hover {
+				background-color: rgb(195, 195, 230);
+			}
+		}
+	}
 }
