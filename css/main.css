@@ -187,6 +187,31 @@
   .item9 img {
     border-radius: 50px 25px; }
 
+.raro-titulo {
+  color: #020202; }
+
+.raro-parraf {
+  color: #3b3b3b; }
+
+.raro-rellen {
+  color: red; }
+
+.raro-mas-rellen {
+  color: #2600ff; }
+
+.first-var {
+  height: 300px;
+  width: 300px;
+  margin: 5px;
+  display: inline-flex;
+  background-color: #c3f6fa;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 20px;
+  margin: 20px; }
+
 header {
   background-color: black;
   color: white; }
@@ -294,17 +319,20 @@ footer {
     font-size: 20px;
     border: 2px solid black; }
 
+.main-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px; }
+
 @media screen and (max-width: 768px) {
   header div img {
     animation: none; }
   header div h1 {
     animation: none; }
   .nav-head a {
-    font-size: 12px; }
-  main {
-    display: grid; }
-    main img {
-      display: none; } }
+    font-size: 12px; } }
 
 @media screen and (max-width: 1024px) {
   header div img {

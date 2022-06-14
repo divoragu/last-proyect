@@ -26,3 +26,10 @@
         border: 2px solid black;
     }
 }
+.main-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: $spacio-10;
+}

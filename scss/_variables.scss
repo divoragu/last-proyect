@@ -15,7 +15,12 @@ $font-25: 25px;
 $spacio-5: 5px;
 $spacio-10: 10px;
 $spacio-25: 25px;
-
+$spacing-5: 5px;
+//width-height
+$width: 100px;
+$width-2: 200px;
+$height: 100px;
+$height-2: 200px;
 //bucles
 @for $it from 1 to 10{
     
@@ -43,4 +48,35 @@ $spacio-25: 25px;
             border-radius: $spacio-25*2 $spacio-25;
         }
     }
+}
+$archivos:(
+    titulo: rgb(2, 2, 2),
+    parraf: rgb(59, 59, 59),
+    rellen: rgb(255, 0, 0),
+    mas-rellen: rgb(38, 0, 255),
+);
+@each $raro, $element in $archivos{
+    .raro-#{$raro}{
+        color: $element;
+    }
+    
+};
+
+// Mixis
+@mixin size ($alto, $ancho, $espaciado){
+    height: $alto;
+    width: $ancho;
+    margin: $espaciado;
+}
+
+.first-var{
+    @include size($height*3, $width*3, $spacing-5);
+    display: inline-flex;
+    background-color: $back-color1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px;
+    margin: 20px;
 }
